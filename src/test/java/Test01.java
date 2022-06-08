@@ -25,6 +25,7 @@ public class Test01 {
         System.out.println(jedis.get("age"));
         System.out.println(jedis.get("username"));
         System.out.println(jedis.get("address"));
+        System.out.println(11);
     }
     @Test
     public void test02(){
